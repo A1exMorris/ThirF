@@ -9,8 +9,17 @@ body, html{
   background-position: center;
   background-repeat: no-repeat;
 
+  &:hover{
+    -webkit-transform: scale(1.05);
+    -webkit-transition: transform 1s ease-in-out;
+    background-color: rgba(0,0,0,0.5);
 
-  p{
+  }
+  &:not(:hover){
+    -webkit-transform: scale(1.00);
+    -webkit-transition: transform 1s ease-in-out;
+  }
+  .mystyle{
     background-color: #ffffff;
     opacity: 0.6;
     filter:alpha(opacity=60);
@@ -19,8 +28,15 @@ body, html{
 
 
 .paralsec1 {
-background-image: url("../i/1.jpg");
-height: 100%;
+  background-image: url("../i/1.jpg");
+  height: 100%;
+  .mystyle{
+    visibility: hidden;
+
+  }
+  &:hover{
+    .mystyle{visibility: visible;}
+  }
 
 }
 .paralsec2{
