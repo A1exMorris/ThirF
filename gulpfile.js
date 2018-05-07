@@ -28,7 +28,8 @@ var path = {
         js: "build/assets/js/",
         css: "build/assets/css/",
         img: "build/assets/i/",
-        fonts: "build/assets/fonts/"
+        fonts: "build/assets/fonts/",
+        thumb: "build/assets/thumbs"
     },
     src: {
         html: "src/**/*.{htm,html,php}",
@@ -124,13 +125,14 @@ gulp.task("fonts:build", function() {
 
 gulp.task("image:build", function () {
     gulp.src(path.src.img)
-        .pipe(imagemin({
-            interlaced: true,
-            progressive: true/*,
-            optimizationLevel: 5,
-            svgoPlugins: [{removeViewBox: true}]*/
+        .pipe(imageResize({
+            width : 400
         }))
-        .pipe(gulp.dest(path.build.img));
+        .pipe(imagemin({
+            progressive: true,
+            svgoPlugins: [{ removeViewBox: false }, { removeUselessStrokeAndFill: false }]
+        }))
+        .pipe(gulp.dest(path.build.thumb));
 });
 
 gulp.task("image:width", function () {
@@ -157,7 +159,7 @@ gulp.task('build', function (cb) {
         "css:build",
         "js:build",
         "fonts:build",
-       // "image:build",
+        "image:build",
         "image:width"
     , cb);
 });

@@ -1,3 +1,5 @@
+
+/*Jquery*/
 /*!
  * jQuery JavaScript Library v2.2.4
  * http://jquery.com/
@@ -9812,6 +9814,8 @@ if ( !noGlobal ) {
 
 return jQuery;
 }));
+
+/*Popper*/
 /**!
  * @fileOverview Kickass library to create and place poppers near their reference elements.
  * @version 1.14.3
@@ -12340,6 +12344,8 @@ return Popper;
 
 })));
 //# sourceMappingURL=popper.js.map
+
+/*Bootstrap*/
 /**
  * --------------------------------------------------------------------------
  * Bootstrap (v4.1.0): util.js

@@ -47,31 +47,15 @@
     </nav><!--Navbar-->
 
         <div class="jumbotron paral paralsec1 d-flex justify-content-center">
-            <div class="container flex-auto align-self-center" >
-           <div class="mystyle"> <p class="h1">ЧТО то своеЁ</p>
-                <p class="h1">ЧТО то своеЁ</p>
-                <p class="h1">ЧТО то своеЁ</p>
-                <p class="h1">ЧТО то своеЁ</p>
-                <p class="h1">ЧТО то своеЁ</p>
-               </div>
-            </div>
+            <p class="h1">ЧТО то своеЁ</p>
         </div>
-    <div class="container">
-        <p class="h1">dddddddddddd</p>
 
-    </div>
-        <div class="jumbotron paral paralsec2">
+        <div class="jumbotron paral paralsec2 d-flex justify-content-center">
             <p class="h1">ЧТО то своеЁ</p>
+
+
         </div>
-        <div class="jumbotron paral paralsec3">
-            <p class="h1">ЧТО то своеЁ</p>
-        </div>
-        <div class="jumbotron paral paralsec4">
-            <p class="h1">ЧТО то своеЁ</p>
-        </div>
-        <div class="jumbotron paral paralsec5">
-            <p class="h1">ЧТО то своеЁ</p>
-        </div>
+
 
     <!--Main part-->
 
