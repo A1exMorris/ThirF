@@ -11,7 +11,7 @@
     <title>Starter Template for Bootstrap</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
     <!--    <link href="assets/css/custom.css" rel="stylesheet">-->
 
 
@@ -59,7 +59,7 @@
         <div class="col">
             <div class="card text-center" style="height: 100%">
                 <a href="###">
-                    <img class="card-img-top" src="assets/i/700x700.jpg"  alt="Card image cap">
+                    <img class="card-img-top" src="i/700x700.jpg"  alt="Card image cap">
                     <div class="card-img-overlay">
                         <h5 class="card-title ">Постоянные договора</h5>
                         <!--                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
@@ -71,7 +71,7 @@
         <div class="col">
             <div class="card text-center" style="height: 100%">
                 <a href="###">
-                    <img class="card-img-top" src="assets/i/700x700.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="i/700x700.jpg" alt="Card image cap">
                     <div class="card-img-overlay">
                         <h5 class="card-title ">Заявки</h5>
                         <!--                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
@@ -83,7 +83,7 @@
         <div class="col ">
             <div class="card text-center" style="height: 100%">
                 <a href="###">
-                    <img class="card-img-top" src="assets/i/700x700.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="i/700x700.jpg" alt="Card image cap">
                     <div class="card-img-overlay">
                         <h5 class="card-title ">Текучка</h5>
                         <!--                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
@@ -97,7 +97,7 @@
         <div class="col">
             <div class="card text-center" style="height: 100%">
                 <a href="###">
-                    <img class="card-img-top" src="assets/i/700x700.jpg" alt="Card image 1">
+                    <img class="card-img-top" src="i/700x700.jpg" alt="Card image 1">
                     <div class="card-img-overlay">
                         <h5 class="card-title ">Карта оборудования</h5>
                         <!--                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
@@ -109,7 +109,7 @@
         <div class="col">
             <div class="card text-center" style="height: 100%">
                 <a href="###">
-                    <img class="card-img-top" src="assets/i/700x700.jpg" alt="Card image 2">
+                    <img class="card-img-top" src="i/700x700.jpg" alt="Card image 2">
                     <div class="card-img-overlay">
                         <h5 class="card-title ">Внести заявку</h5>
                         <!--                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
@@ -121,7 +121,7 @@
         <div class="col">
             <div class="card text-center" style="height: 100%">
                 <a href="###">
-                    <img class="card-img-top" src="assets/i/700x700.jpg" alt="Card image 3">
+                    <img class="card-img-top" src="i/700x700.jpg" alt="Card image 3">
                     <div class="card-img-overlay">
                         <h5 class="card-title ">Empty</h5>
                         <!--                   <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>-->
@@ -135,7 +135,7 @@
 
 
 
-<script src="assets/js/main.js"></script>
+<script src="js/main.js"></script>
 <script>
     //   var clampHeight = $('.clampThis').parent().height;
 
